@@ -1,9 +1,14 @@
+/* {
+    outline: 2px solid red;
+}*/
 body {
     display: flex;
     height: 100vh;
     flex-direction: column;
     overflow: auto;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: white;
 }
 
 .header {
@@ -11,13 +16,14 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color:#1F2937;
+    padding: 16px;
 }
 
 .logo {
-    color: #E5E7EB;
+    color: #f9faf8;
     font-weight: 800;
     font-size: 24px;
-    margin: 8px;
+    margin: 16px;
 }
 
 ul {
@@ -25,8 +31,59 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
     list-style: none;
-    gap: 8px;
+    gap: 16px;
     font-weight: 100;
     font-size: 16px;
-    margin: 8px;
+    margin: 16px;
+}
+
+.hero{
+    background-color:#1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    gap: 16px
+}
+
+.text-one {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.main-text{
+    flex: 1;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sec-text {
+    flex:1;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 16px ;
+    margin-bottom: 16px;
+}
+#image1 {
+    flex: 1;
+    max-width: 40%;
+    height: auto;
+    padding: 8px;
+    object-fit: scale-down;
+}
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+  }
+
+.signup-button {
+    background-color: #3882F6;
+    width: 240px;
+    height: 48px;
 }
