@@ -1,6 +1,6 @@
- /* * {
+ * {
     outline: 2px solid red;
-} */
+} 
 body {
     display: flex;
     height: 100vh;
@@ -51,6 +51,7 @@ ul {
     flex-direction: column;
     align-items: left;
     width: 50%;
+    margin: 16px;
 }
 
 .main-text{
@@ -70,7 +71,7 @@ ul {
     flex: 0 1 auto;
     max-width: 50%;
     height: auto;
-    padding: 8px;
+    text-align: center;
 }
 button {
     cursor: pointer;
@@ -99,11 +100,11 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 32px;
-    margin: 20px 64px;
+    margin:16px;
 }
 
 .info {
-    max-width: 180px;
+    max-width: 200px;
 }
 
 .box {
@@ -112,12 +113,63 @@ h1 {
     border-radius: 5px;
     border-color: #3882F6;
     background-color: pink;
-    align-self: center;
-    margin: 10px;
 }
 
 .text {
     color: black;
     text-align: center;
     font-size: 12px;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+    padding: 32px 64px;
+    margin: 0;
+
+}
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.sign {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
+    color: #1f2937;
+}
+.fourth-section {
+    padding: 32px 32px;
+}
+.card{
+    background-color: #3882F6;
+    margin: 32px 56px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    padding: 32px 20px;
+}
+
+.call-text {
+    flex:1;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.product-call {
+    font-size: 12px;
+    color: #E5E7EB;
+}
+
+.signup2 {
+    flex: 1;
+    background-color: #3882F6;
+    color: white;
+    border-color: #E5E7EB;
+    max-width: 120px;
+    height: 40px;
+    text-align: center;
+    margin-right: 10%;
 }
